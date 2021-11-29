@@ -31,7 +31,7 @@ try {
     }
 
     public void login(View view) {
-       // startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+       startActivity(new Intent(getApplicationContext(),LoginActivity.class));
     }
 
     public void register(View view) {

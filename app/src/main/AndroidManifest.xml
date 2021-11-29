@@ -13,7 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UniverseApp">
         <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextListActivity"
             android:exported="false" />
 
         <uses-library
